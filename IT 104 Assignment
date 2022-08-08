@@ -1,0 +1,31 @@
+COLLINS MAWULOLO AGBLEDZORWU 10945788
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i,j=2,a,counter=0,sum=0,flag=1;
+   
+    cout<<"Enter the value to a:";
+    cin>>a;
+   
+    while(counter<a){
+        for(i=2; i<=j-1; i++){
+            if(j%i==0){
+                flag=0;
+                break;
+            
+            }
+        }
+
+        if(flag){
+            sum+=j;
+            counter++;
+        }
+        j++;
+        flag=1;
+    }
+    cout<<"sum of first "<<n<<" prime numbers:"<<sum;
+    fetch();
+    return 0;
+}
