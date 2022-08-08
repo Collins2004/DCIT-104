@@ -1,0 +1,9 @@
+Collins Mawulolo Agbledzorwu 10945788
+  sum = 0 
+num = int(input(" number ")) 
+for i in range(2, number + 1): 
+    for j in range(2, i): 
+        if i % j == 0: 
+            break 
+    else: 
+        sum = sum + i 
